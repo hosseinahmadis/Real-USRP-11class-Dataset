@@ -3,6 +3,22 @@
 A small PyTorch dataset wrapper around an HDF5 file containing real USRP IQ
 recordings across 11 modulation classes (`Real_usrp_39000_11class_raw.h5`).
 
+The data was collected at a single SNR value (**SNR = 10 dB**) with a
+transmitter–receiver distance of approximately **5 meters**.
+
+## Download the dataset
+
+The `.h5` file is too large to host on GitHub. Download it from Google Drive:
+
+**Link:** https://drive.google.com/file/d/1TEjx4_JN4r6YiWmTDbxPyeodIuhNiWgF/view?usp=drive_link
+
+Place the downloaded file in the same folder as `dataset.py` before running anything.
+
+## Contact
+
+For more information, questions, or access requests, please email
+**ha168@uakron.edu**.
+
 ## Contents
 
 ```
@@ -13,8 +29,8 @@ recordings across 11 modulation classes (`Real_usrp_39000_11class_raw.h5`).
 └── README.md
 ```
 
-The `.h5` file is not tracked in git because of its size. Place it in the
-same folder as `dataset.py` before running anything.
+The `.h5` file is not tracked in git because of its size — see the
+**Download the dataset** section above.
 
 ## Requirements
 
