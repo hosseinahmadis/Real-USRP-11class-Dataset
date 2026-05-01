@@ -10,7 +10,7 @@ transmitter–receiver distance of approximately **5 meters**.
 
 The `.h5` file is too large to host on GitHub. Download it from Google Drive:
 
-**Link:** https://drive.google.com/file/d/1TEjx4_JN4r6YiWmTDbxPyeodIuhNiWgF/view?usp=drive_link
+**Link:** https://drive.google.com/file/d/1JVvdrUe_moXxzDadsngZ478VTlfnu48k/view?usp=drive_link
 
 Place the downloaded file in the same folder as `dataset.py` before running anything.
 
@@ -131,6 +131,33 @@ Open `test_dataset.ipynb` for an end-to-end check:
 5. Class and SNR distribution bar charts.
 6. Examples of SNR / identification filters.
 7. Build DataLoaders and inspect one batch.
+
+## Citation
+
+If you use this dataset or code in your research, please cite the paper for
+which this dataset was originally collected:
+
+> H. Ahmadi, Y. Zhang, A. Li, T. Li, and Y. Zhang,
+> "BadAMC: A Model-Agnostic Digital Backdoor Attack for Automatic Modulation
+> Classification in Crowdsourced Platforms,"
+> *IEEE Transactions on Networking*, Early Access, Apr. 2026.
+> doi: [10.1109/TON.2026.3688147](https://doi.org/10.1109/TON.2026.3688147).
+
+BibTeX:
+
+```bibtex
+@article{ahmadi2026badamc,
+  title   = {{BadAMC}: A Model-Agnostic Digital Backdoor Attack for Automatic
+             Modulation Classification in Crowdsourced Platforms},
+  author  = {Ahmadi, Hossein and Zhang, Yan and Li, Ang and Li, Tao and Zhang, Yanchao},
+  journal = {IEEE Transactions on Networking},
+  year    = {2026},
+  note    = {Early Access},
+  issn    = {2998-4157},
+  doi     = {10.1109/TON.2026.3688147},
+  url     = {https://doi.org/10.1109/TON.2026.3688147}
+}
+```
 
 ## License
 
